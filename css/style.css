@@ -1,8 +1,42 @@
+/** CSS for general styles for body*/
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+
+body {
+  background-image: url(../image/books1.jpg);
+  background-repeat: no-repeat;
+  background-color: #c8c8c8;
+  background-color: hsl(hue, saturation, lightness);
+  background-position: center;
+  background-size: cover;
+  font-style: normal;
+}
+
+/**first- child pseudo-class*/
+article :first-child {
+  background-color: rgb(252, 92, 166);
+  padding: 5px;
+}
+
+/**last -child pseudo-class*/
+article :last-child {
+  font-weight: 600;
+  font-style: italic;
+}
+p {
+  color: rgb(15, 14, 14);
+}
+/**Navigation styles*/
+/**hero styles*/
+/**footer styles*/
+
 /**
  * Add your custom styles below
  * 
  * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
+ * - Be organized, use comments and separate your styles into meaningful chunks
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
